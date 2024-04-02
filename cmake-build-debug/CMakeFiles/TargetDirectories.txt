@@ -1,0 +1,3 @@
+C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/CMakeFiles/secondtry.elf.dir
+C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/CMakeFiles/rebuild_cache.dir

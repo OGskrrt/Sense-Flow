@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="secondtry"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="secondtry.elf">
+				<Option output="C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/secondtry.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Core/Inc"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 secondtry.elf"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="secondtry.elf/fast">
+				<Option output="C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/secondtry.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Core/Inc"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 secondtry.elf/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/skrrrt/CLionProjects/secondtry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Inc/FreeRTOSConfig.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Inc/main.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Inc/stm32f4xx_it.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Src/freertos.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Src/main.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Src/stm32f4xx_it.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Src/syscalls.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Src/sysmem.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Src/system_stm32f4xx.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Core/Startup/startup_stm32f407vgtx.s">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/cachel1_armv7.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_cm55.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_cm85.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/core_starmc1.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/pac_armv81.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/pmu_armv8.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/CMSIS/LICENSE.txt">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/STM32F407VGTX_FLASH.ld">
+			<Option target="secondtry.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/skrrrt/CLionProjects/secondtry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
